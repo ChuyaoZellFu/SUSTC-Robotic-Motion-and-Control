@@ -1,0 +1,8 @@
+prefix=/home/slam327/catkin_workspace/src/ros_kortex/pick_and_place/build/devel
+
+Name: pick_and_place
+Description: Description of pick_and_place
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

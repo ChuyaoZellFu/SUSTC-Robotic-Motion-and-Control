@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/slam327/catkin_workspace/src/ros_kortex/pick_and_place/build/devel/setup.sh
