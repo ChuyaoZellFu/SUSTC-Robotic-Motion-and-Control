@@ -1,0 +1,8 @@
+prefix=/home/slam327/catkin_workspace/devel
+
+Name: gen3_7dof_dual_arm_move_it_config
+Description: Description of gen3_7dof_dual_arm_move_it_config
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

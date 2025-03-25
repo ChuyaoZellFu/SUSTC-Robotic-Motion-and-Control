@@ -1,0 +1,24 @@
+(cl:in-package kortex_driver-msg)
+(cl:export '(HANDLE-VAL
+          HANDLE
+          CAN_CHANGE_SAFETY_STATE-VAL
+          CAN_CHANGE_SAFETY_STATE
+          HAS_WARNING_THRESHOLD-VAL
+          HAS_WARNING_THRESHOLD
+          HAS_ERROR_THRESHOLD-VAL
+          HAS_ERROR_THRESHOLD
+          LIMIT_TYPE-VAL
+          LIMIT_TYPE
+          DEFAULT_WARNING_THRESHOLD-VAL
+          DEFAULT_WARNING_THRESHOLD
+          DEFAULT_ERROR_THRESHOLD-VAL
+          DEFAULT_ERROR_THRESHOLD
+          UPPER_HARD_LIMIT-VAL
+          UPPER_HARD_LIMIT
+          LOWER_HARD_LIMIT-VAL
+          LOWER_HARD_LIMIT
+          STATUS-VAL
+          STATUS
+          UNIT-VAL
+          UNIT
+))

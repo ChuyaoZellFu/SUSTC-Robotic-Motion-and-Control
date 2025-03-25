@@ -1,0 +1,8 @@
+prefix=/home/slam327/catkin_workspace/devel
+
+Name: kortex_driver
+Description: Description of kortex_driver
+Version: 2.2.2
+Cflags: -I/home/slam327/catkin_workspace/devel/include
+Libs: -L${prefix}/lib 
+Requires: actionlib_msgs

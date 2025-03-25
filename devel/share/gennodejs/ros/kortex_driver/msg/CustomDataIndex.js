@@ -1,0 +1,358 @@
+// Auto-generated. Do not edit!
+
+// (in-package kortex_driver.msg)
+
+
+"use strict";
+
+const _serializer = _ros_msg_utils.Serialize;
+const _arraySerializer = _serializer.Array;
+const _deserializer = _ros_msg_utils.Deserialize;
+const _arrayDeserializer = _deserializer.Array;
+const _finder = _ros_msg_utils.Find;
+const _getByteLength = _ros_msg_utils.getByteLength;
+
+//-----------------------------------------------------------
+
+class CustomDataIndex {
+  constructor(initObj={}) {
+    if (initObj === null) {
+      // initObj === null is a special case for deserialization where we don't initialize fields
+    }
+    else {
+    }
+  }
+
+  static serialize(obj, buffer, bufferOffset) {
+    // Serializes a message object of type CustomDataIndex
+    return bufferOffset;
+  }
+
+  static deserialize(buffer, bufferOffset=[0]) {
+    //deserializes a message object of type CustomDataIndex
+    let len;
+    let data = new CustomDataIndex(null);
+    return data;
+  }
+
+  static getMessageSize(object) {
+    return 0;
+  }
+
+  static datatype() {
+    // Returns string type for a message object
+    return 'kortex_driver/CustomDataIndex';
+  }
+
+  static md5sum() {
+    //Returns md5sum for a message object
+    return 'eae9521583b3c1abefd19a18bb497f62';
+  }
+
+  static messageDefinition() {
+    // Returns full string definition for message
+    return `
+    
+    uint32 NO_CUSTOM_DATA_SELECTED = 0
+    
+    uint32 UINT32_TEST_RAMP = 1
+    
+    uint32 UINT32_MOTOR_ENCODER_RAW = 2
+    
+    uint32 UINT32_JOINT_ENCODER_RAW = 3
+    
+    uint32 FLOAT_TEMPERATURE_PHASE_0 = 4
+    
+    uint32 FLOAT_TEMPERATURE_PHASE_1 = 5
+    
+    uint32 FLOAT_TEMPERATURE_PHASE_2 = 6
+    
+    uint32 INT32_TORQUE_SENSOR_RAW_0 = 7
+    
+    uint32 INT32_TORQUE_SENSOR_RAW_1 = 8
+    
+    uint32 INT32_TORQUE_SENSOR_RAW_2 = 9
+    
+    uint32 INT32_TORQUE_SENSOR_RAW_3 = 10
+    
+    uint32 FLOAT_TORQUE_SENSOR_0 = 11
+    
+    uint32 FLOAT_TORQUE_SENSOR_1 = 12
+    
+    uint32 FLOAT_TORQUE_SENSOR_2 = 13
+    
+    uint32 FLOAT_TORQUE_SENSOR_3 = 14
+    
+    uint32 UINT32_MOTOR_ENCODER_RAW_LATCH_ON_INDEX_RISING = 15
+    
+    uint32 UINT32_JOINT_ENCODER_RAW_LATCH_ON_INDEX_RISING = 16
+    
+    uint32 UINT32_ABSOLUTE_POSITION_SENSOR_RAW = 17
+    
+    uint32 FLOAT_ABSOLUTE_POSITION_SENSOR = 18
+    
+    uint32 FLOAT_CONTROL_POSITION_JOINT_REQUESTED = 19
+    
+    uint32 UINT32_JIG_FLAGS = 20
+    
+    uint32 UINT32_TICK_MOTOR_CONTROL = 21
+    
+    uint32 UINT32_TICK_JOINT_CONTROL = 22
+    
+    uint32 UINT32_INDEX_TICK_MOTOR_CONTROL = 23
+    
+    uint32 UINT32_INDEX_TICK_JOINT_CONTROL = 24
+    
+    uint32 FLOAT_ACCELERATION_X = 25
+    
+    uint32 FLOAT_ACCELERATION_Y = 26
+    
+    uint32 FLOAT_ACCELERATION_Z = 27
+    
+    uint32 FLOAT_ANGULAR_RATE_X = 28
+    
+    uint32 FLOAT_ANGULAR_RATE_Y = 29
+    
+    uint32 FLOAT_ANGULAR_RATE_Z = 30
+    
+    uint32 FLOAT_POSITION_MOTOR_CMD = 31
+    
+    uint32 FLOAT_VELOCITY_MOTOR_CMD = 32
+    
+    uint32 FLOAT_POSITION_MOTOR = 33
+    
+    uint32 FLOAT_VELOCITY_MOTOR = 34
+    
+    uint32 UINT32_COMMUNICATIONS_JITTER = 35
+    
+    uint32 FLOAT_TORQUE_AVERAGE = 36
+    
+    uint32 FLOAT_CURRENT_MOTOR = 37
+    
+    uint32 FLOAT_VOLTAGE_DIGITAL = 38
+    
+    uint32 FLOAT_TEMPERATURE_MOTOR_CELSIUS = 39
+    
+    uint32 FLOAT_TEMPERATURE_CORE_CELSIUS = 40
+    
+    uint32 UINT32_FAULT_A = 41
+    
+    uint32 UINT32_FAULT_B = 42
+    
+    uint32 UINT32_WARNING_A = 43
+    
+    uint32 UINT32_WARNING_B = 44
+    
+    uint32 FLOAT_POSITION_FROM_HALLS = 45
+    
+    uint32 FLOAT_PHASE_CURRENT_0 = 46
+    
+    uint32 FLOAT_PHASE_CURRENT_1 = 47
+    
+    uint32 FLOAT_PHASE_CURRENT_2 = 48
+    
+    uint32 FLOAT_PHASE_PWM_0 = 49
+    
+    uint32 FLOAT_PHASE_PWM_1 = 50
+    
+    uint32 FLOAT_PHASE_PWM_2 = 51
+    
+    uint32 FLOAT_MOTOR_ELECTRICAL_ANGLE = 52
+    
+    uint32 FLOAT_CURRENT_MOTOR_CMD = 53
+    
+    uint32 FLOAT_TORQUE_JOINT_CMD = 54
+    
+    uint32 FLOAT_POSITION_UNWRAPPED = 55
+    
+    uint32 UINT32_HALL_SENSOR_0 = 56
+    
+    uint32 UINT32_HALL_SENSOR_1 = 57
+    
+    uint32 UINT32_HALL_SENSOR_2 = 58
+    
+    uint32 INT32_HALL_SENSOR_SCALED_0 = 59
+    
+    uint32 INT32_HALL_SENSOR_SCALED_1 = 60
+    
+    uint32 INT32_HALL_SENSOR_SCALED_2 = 61
+    
+    uint32 FLOAT_COGGING_COEFFICIENT_A_0 = 62
+    
+    uint32 FLOAT_COGGING_COEFFICIENT_A_1 = 63
+    
+    uint32 FLOAT_COGGING_COEFFICIENT_A_2 = 64
+    
+    uint32 FLOAT_COGGING_COEFFICIENT_A_3 = 65
+    
+    uint32 FLOAT_COGGING_COEFFICIENT_A_4 = 66
+    
+    uint32 FLOAT_COGGING_COEFFICIENT_A_5 = 67
+    
+    uint32 FLOAT_COGGING_COEFFICIENT_A_6 = 68
+    
+    uint32 FLOAT_COGGING_COEFFICIENT_A_7 = 69
+    
+    uint32 FLOAT_COGGING_COEFFICIENT_A_8 = 70
+    
+    uint32 FLOAT_COGGING_COEFFICIENT_A_9 = 71
+    
+    uint32 FLOAT_COGGING_COEFFICIENT_A_10 = 72
+    
+    uint32 FLOAT_COGGING_COEFFICIENT_A_11 = 73
+    
+    uint32 FLOAT_COGGING_COEFFICIENT_A_12 = 74
+    
+    uint32 FLOAT_COGGING_COEFFICIENT_A_13 = 75
+    
+    uint32 FLOAT_COGGING_COEFFICIENT_A_14 = 76
+    
+    uint32 FLOAT_COGGING_COEFFICIENT_A_15 = 77
+    
+    uint32 FLOAT_COGGING_COEFFICIENT_B_0 = 78
+    
+    uint32 FLOAT_COGGING_COEFFICIENT_B_1 = 79
+    
+    uint32 FLOAT_COGGING_COEFFICIENT_B_2 = 80
+    
+    uint32 FLOAT_COGGING_COEFFICIENT_B_3 = 81
+    
+    uint32 FLOAT_COGGING_COEFFICIENT_B_4 = 82
+    
+    uint32 FLOAT_COGGING_COEFFICIENT_B_5 = 83
+    
+    uint32 FLOAT_COGGING_COEFFICIENT_B_6 = 84
+    
+    uint32 FLOAT_COGGING_COEFFICIENT_B_7 = 85
+    
+    uint32 FLOAT_COGGING_COEFFICIENT_B_8 = 86
+    
+    uint32 FLOAT_COGGING_COEFFICIENT_B_9 = 87
+    
+    uint32 FLOAT_COGGING_COEFFICIENT_B_10 = 88
+    
+    uint32 FLOAT_COGGING_COEFFICIENT_B_11 = 89
+    
+    uint32 FLOAT_COGGING_COEFFICIENT_B_12 = 90
+    
+    uint32 FLOAT_COGGING_COEFFICIENT_B_13 = 91
+    
+    uint32 FLOAT_COGGING_COEFFICIENT_B_14 = 92
+    
+    uint32 FLOAT_COGGING_COEFFICIENT_B_15 = 93
+    
+    uint32 FLOAT_CURRENT_COGGING_FEEDFORWARD = 94
+    
+    `;
+  }
+
+  static Resolve(msg) {
+    // deep-construct a valid message object instance of whatever was passed in
+    if (typeof msg !== 'object' || msg === null) {
+      msg = {};
+    }
+    const resolved = new CustomDataIndex(null);
+    return resolved;
+    }
+};
+
+// Constants for message
+CustomDataIndex.Constants = {
+  NO_CUSTOM_DATA_SELECTED: 0,
+  UINT32_TEST_RAMP: 1,
+  UINT32_MOTOR_ENCODER_RAW: 2,
+  UINT32_JOINT_ENCODER_RAW: 3,
+  FLOAT_TEMPERATURE_PHASE_0: 4,
+  FLOAT_TEMPERATURE_PHASE_1: 5,
+  FLOAT_TEMPERATURE_PHASE_2: 6,
+  INT32_TORQUE_SENSOR_RAW_0: 7,
+  INT32_TORQUE_SENSOR_RAW_1: 8,
+  INT32_TORQUE_SENSOR_RAW_2: 9,
+  INT32_TORQUE_SENSOR_RAW_3: 10,
+  FLOAT_TORQUE_SENSOR_0: 11,
+  FLOAT_TORQUE_SENSOR_1: 12,
+  FLOAT_TORQUE_SENSOR_2: 13,
+  FLOAT_TORQUE_SENSOR_3: 14,
+  UINT32_MOTOR_ENCODER_RAW_LATCH_ON_INDEX_RISING: 15,
+  UINT32_JOINT_ENCODER_RAW_LATCH_ON_INDEX_RISING: 16,
+  UINT32_ABSOLUTE_POSITION_SENSOR_RAW: 17,
+  FLOAT_ABSOLUTE_POSITION_SENSOR: 18,
+  FLOAT_CONTROL_POSITION_JOINT_REQUESTED: 19,
+  UINT32_JIG_FLAGS: 20,
+  UINT32_TICK_MOTOR_CONTROL: 21,
+  UINT32_TICK_JOINT_CONTROL: 22,
+  UINT32_INDEX_TICK_MOTOR_CONTROL: 23,
+  UINT32_INDEX_TICK_JOINT_CONTROL: 24,
+  FLOAT_ACCELERATION_X: 25,
+  FLOAT_ACCELERATION_Y: 26,
+  FLOAT_ACCELERATION_Z: 27,
+  FLOAT_ANGULAR_RATE_X: 28,
+  FLOAT_ANGULAR_RATE_Y: 29,
+  FLOAT_ANGULAR_RATE_Z: 30,
+  FLOAT_POSITION_MOTOR_CMD: 31,
+  FLOAT_VELOCITY_MOTOR_CMD: 32,
+  FLOAT_POSITION_MOTOR: 33,
+  FLOAT_VELOCITY_MOTOR: 34,
+  UINT32_COMMUNICATIONS_JITTER: 35,
+  FLOAT_TORQUE_AVERAGE: 36,
+  FLOAT_CURRENT_MOTOR: 37,
+  FLOAT_VOLTAGE_DIGITAL: 38,
+  FLOAT_TEMPERATURE_MOTOR_CELSIUS: 39,
+  FLOAT_TEMPERATURE_CORE_CELSIUS: 40,
+  UINT32_FAULT_A: 41,
+  UINT32_FAULT_B: 42,
+  UINT32_WARNING_A: 43,
+  UINT32_WARNING_B: 44,
+  FLOAT_POSITION_FROM_HALLS: 45,
+  FLOAT_PHASE_CURRENT_0: 46,
+  FLOAT_PHASE_CURRENT_1: 47,
+  FLOAT_PHASE_CURRENT_2: 48,
+  FLOAT_PHASE_PWM_0: 49,
+  FLOAT_PHASE_PWM_1: 50,
+  FLOAT_PHASE_PWM_2: 51,
+  FLOAT_MOTOR_ELECTRICAL_ANGLE: 52,
+  FLOAT_CURRENT_MOTOR_CMD: 53,
+  FLOAT_TORQUE_JOINT_CMD: 54,
+  FLOAT_POSITION_UNWRAPPED: 55,
+  UINT32_HALL_SENSOR_0: 56,
+  UINT32_HALL_SENSOR_1: 57,
+  UINT32_HALL_SENSOR_2: 58,
+  INT32_HALL_SENSOR_SCALED_0: 59,
+  INT32_HALL_SENSOR_SCALED_1: 60,
+  INT32_HALL_SENSOR_SCALED_2: 61,
+  FLOAT_COGGING_COEFFICIENT_A_0: 62,
+  FLOAT_COGGING_COEFFICIENT_A_1: 63,
+  FLOAT_COGGING_COEFFICIENT_A_2: 64,
+  FLOAT_COGGING_COEFFICIENT_A_3: 65,
+  FLOAT_COGGING_COEFFICIENT_A_4: 66,
+  FLOAT_COGGING_COEFFICIENT_A_5: 67,
+  FLOAT_COGGING_COEFFICIENT_A_6: 68,
+  FLOAT_COGGING_COEFFICIENT_A_7: 69,
+  FLOAT_COGGING_COEFFICIENT_A_8: 70,
+  FLOAT_COGGING_COEFFICIENT_A_9: 71,
+  FLOAT_COGGING_COEFFICIENT_A_10: 72,
+  FLOAT_COGGING_COEFFICIENT_A_11: 73,
+  FLOAT_COGGING_COEFFICIENT_A_12: 74,
+  FLOAT_COGGING_COEFFICIENT_A_13: 75,
+  FLOAT_COGGING_COEFFICIENT_A_14: 76,
+  FLOAT_COGGING_COEFFICIENT_A_15: 77,
+  FLOAT_COGGING_COEFFICIENT_B_0: 78,
+  FLOAT_COGGING_COEFFICIENT_B_1: 79,
+  FLOAT_COGGING_COEFFICIENT_B_2: 80,
+  FLOAT_COGGING_COEFFICIENT_B_3: 81,
+  FLOAT_COGGING_COEFFICIENT_B_4: 82,
+  FLOAT_COGGING_COEFFICIENT_B_5: 83,
+  FLOAT_COGGING_COEFFICIENT_B_6: 84,
+  FLOAT_COGGING_COEFFICIENT_B_7: 85,
+  FLOAT_COGGING_COEFFICIENT_B_8: 86,
+  FLOAT_COGGING_COEFFICIENT_B_9: 87,
+  FLOAT_COGGING_COEFFICIENT_B_10: 88,
+  FLOAT_COGGING_COEFFICIENT_B_11: 89,
+  FLOAT_COGGING_COEFFICIENT_B_12: 90,
+  FLOAT_COGGING_COEFFICIENT_B_13: 91,
+  FLOAT_COGGING_COEFFICIENT_B_14: 92,
+  FLOAT_COGGING_COEFFICIENT_B_15: 93,
+  FLOAT_CURRENT_COGGING_FEEDFORWARD: 94,
+}
+
+module.exports = CustomDataIndex;

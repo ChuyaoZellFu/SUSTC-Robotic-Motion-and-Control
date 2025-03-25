@@ -1,0 +1,12 @@
+(cl:in-package kortex_driver-msg)
+(cl:export '(HANDLE-VAL
+          HANDLE
+          NAME-VAL
+          NAME
+          ACTIVE_MAPPING_HANDLE-VAL
+          ACTIVE_MAPPING_HANDLE
+          ANALOG_INPUT_IDENTIFIER_ENUM-VAL
+          ANALOG_INPUT_IDENTIFIER_ENUM
+          DIGITAL_INPUT_IDENTIFIER_ENUM-VAL
+          DIGITAL_INPUT_IDENTIFIER_ENUM
+))

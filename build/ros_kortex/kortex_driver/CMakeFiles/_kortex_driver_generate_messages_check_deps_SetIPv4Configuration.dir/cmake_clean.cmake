@@ -1,0 +1,8 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/_kortex_driver_generate_messages_check_deps_SetIPv4Configuration"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/_kortex_driver_generate_messages_check_deps_SetIPv4Configuration.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

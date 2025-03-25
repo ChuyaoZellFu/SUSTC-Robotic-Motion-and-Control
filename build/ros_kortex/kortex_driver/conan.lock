@@ -1,0 +1,24 @@
+{
+ "graph_lock": {
+  "nodes": {
+   "0": {
+    "options": "kortex_api_cpp:shared=False",
+    "requires": [
+     "1"
+    ],
+    "path": "../../../src/ros_kortex/kortex_driver/conanfile.py",
+    "context": "host"
+   },
+   "1": {
+    "ref": "kortex_api_cpp/2.6.0-r.3@kortex/stable#76518ae0f34da66238e0ae668d275bf053cc5342",
+    "options": "shared=False",
+    "package_id": "c023db9fc677d4d0b3bd0c20f71385e4cf8a1220",
+    "prev": "11d5f32efa8806b4746ca39f62f5611d",
+    "context": "host"
+   }
+  },
+  "revisions_enabled": true
+ },
+ "version": "0.4",
+ "profile_host": "[settings]\narch=x86_64\narch_build=x86_64\nbuild_type=Release\ncompiler=gcc\ncompiler.libcxx=libstdc++11\ncompiler.version=9\nos=Linux\nos_build=Linux\nkortex_api_cpp:compiler=gcc\nkortex_api_cpp:compiler.version=5\nkortex_api_cpp:compiler.libcxx=libstdc++11\nkortex_api_cpp:build_type=Release\n[options]\n[build_requires]\n[env]\n"
+}

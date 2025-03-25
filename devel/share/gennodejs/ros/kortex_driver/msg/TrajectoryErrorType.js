@@ -1,0 +1,184 @@
+// Auto-generated. Do not edit!
+
+// (in-package kortex_driver.msg)
+
+
+"use strict";
+
+const _serializer = _ros_msg_utils.Serialize;
+const _arraySerializer = _serializer.Array;
+const _deserializer = _ros_msg_utils.Deserialize;
+const _arrayDeserializer = _deserializer.Array;
+const _finder = _ros_msg_utils.Find;
+const _getByteLength = _ros_msg_utils.getByteLength;
+
+//-----------------------------------------------------------
+
+class TrajectoryErrorType {
+  constructor(initObj={}) {
+    if (initObj === null) {
+      // initObj === null is a special case for deserialization where we don't initialize fields
+    }
+    else {
+    }
+  }
+
+  static serialize(obj, buffer, bufferOffset) {
+    // Serializes a message object of type TrajectoryErrorType
+    return bufferOffset;
+  }
+
+  static deserialize(buffer, bufferOffset=[0]) {
+    //deserializes a message object of type TrajectoryErrorType
+    let len;
+    let data = new TrajectoryErrorType(null);
+    return data;
+  }
+
+  static getMessageSize(object) {
+    return 0;
+  }
+
+  static datatype() {
+    // Returns string type for a message object
+    return 'kortex_driver/TrajectoryErrorType';
+  }
+
+  static md5sum() {
+    //Returns md5sum for a message object
+    return '4f3aa449e7cdc70f504c12f27c350f66';
+  }
+
+  static messageDefinition() {
+    // Returns full string definition for message
+    return `
+    
+    uint32 TRAJECTORY_ERROR_TYPE_UNSPECIFIED = 0
+    
+    uint32 TRAJECTORY_ERROR_TYPE_OUTSIDE_WORKSPACE = 1
+    
+    uint32 TRAJECTORY_ERROR_TYPE_ACTUATOR_COUNT_MISMATCH = 2
+    
+    uint32 TRAJECTORY_ERROR_TYPE_INVALID_DURATION = 3
+    
+    uint32 TRAJECTORY_ERROR_TYPE_JOINT_NO_MOTION = 4
+    
+    uint32 TRAJECTORY_ERROR_TYPE_ZERO_DISTANCE = 4
+    
+    uint32 TRAJECTORY_ERROR_TYPE_INVALID_JOINT_SPEED = 5
+    
+    uint32 TRAJECTORY_ERROR_TYPE_INVALID_SPEED = 5
+    
+    uint32 TRAJECTORY_ERROR_TYPE_LARGE_SPEED = 6
+    
+    uint32 TRAJECTORY_ERROR_TYPE_INVALID_JOINT_ACCELERATION = 7
+    
+    uint32 TRAJECTORY_ERROR_TYPE_INVALID_ACCELERATION = 7
+    
+    uint32 TRAJECTORY_ERROR_TYPE_INVALID_TIME_STEP = 8
+    
+    uint32 TRAJECTORY_ERROR_TYPE_INVALID_TRAJECTORY_SIZE = 9
+    
+    uint32 TRAJECTORY_ERROR_TYPE_LARGE_SIZE = 9
+    
+    uint32 TRAJECTORY_ERROR_TYPE_WRONG_MODE = 10
+    
+    uint32 TRAJECTORY_ERROR_TYPE_INVALID_JOINT_POSITION = 11
+    
+    uint32 TRAJECTORY_ERROR_TYPE_JOINT_POSITION_LIMIT = 11
+    
+    uint32 TRAJECTORY_ERROR_TYPE_FILE_ERROR = 12
+    
+    uint32 TRAJECTORY_ERROR_TYPE_NO_FILE_IN_MEMORY = 13
+    
+    uint32 TRAJECTORY_ERROR_TYPE_INDEX_OUT_OF_TRAJ = 14
+    
+    uint32 TRAJECTORY_ERROR_TYPE_TRAJECTORY_ALREADY_RUNNING = 15
+    
+    uint32 TRAJECTORY_ERROR_TYPE_ALREADY_RUNNING = 15
+    
+    uint32 TRAJECTORY_ERROR_TYPE_WRONG_STARTING_POINT = 16
+    
+    uint32 TRAJECTORY_ERROR_TYPE_CARTESIAN_CANNOT_START = 17
+    
+    uint32 TRAJECTORY_ERROR_TYPE_WRONG_STARTING_SPEED = 18
+    
+    uint32 TRAJECTORY_ERROR_TYPE_INVALID_POSITION = 19
+    
+    uint32 TRAJECTORY_ERROR_TYPE_INVALID_CARTESIAN_POSITION = 20
+    
+    uint32 TRAJECTORY_ERROR_TYPE_INVALID_CARTESIAN_ORIENTATION = 21
+    
+    uint32 TRAJECTORY_ERROR_TYPE_INVALID_CARTESIAN_LINEAR_VELOCITY = 22
+    
+    uint32 TRAJECTORY_ERROR_TYPE_INVALID_CARTESIAN_ANGULAR_VELOCITY = 23
+    
+    uint32 TRAJECTORY_ERROR_TYPE_INVALID_JOINT_TORQUE = 24
+    
+    uint32 TRAJECTORY_ERROR_TYPE_MULTIPLE_WAYPOINT_TYPE_LIST = 25
+    
+    uint32 TRAJECTORY_ERROR_TYPE_INITIAL_WAYPOINT_NO_STOP = 26
+    
+    uint32 TRAJECTORY_ERROR_TYPE_FINAL_WAYPOINT_NO_STOP = 27
+    
+    uint32 TRAJECTORY_ERROR_TYPE_INVALID_BLENDING_RADIUS = 28
+    
+    uint32 TRAJECTORY_ERROR_TYPE_INVALID_REFERENCE_FRAME = 29
+    
+    uint32 TRAJECTORY_ERROR_TYPE_NUMERICAL_ERROR_IMPOSSIBLE_TRAJECTORY = 30
+    
+    `;
+  }
+
+  static Resolve(msg) {
+    // deep-construct a valid message object instance of whatever was passed in
+    if (typeof msg !== 'object' || msg === null) {
+      msg = {};
+    }
+    const resolved = new TrajectoryErrorType(null);
+    return resolved;
+    }
+};
+
+// Constants for message
+TrajectoryErrorType.Constants = {
+  TRAJECTORY_ERROR_TYPE_UNSPECIFIED: 0,
+  TRAJECTORY_ERROR_TYPE_OUTSIDE_WORKSPACE: 1,
+  TRAJECTORY_ERROR_TYPE_ACTUATOR_COUNT_MISMATCH: 2,
+  TRAJECTORY_ERROR_TYPE_INVALID_DURATION: 3,
+  TRAJECTORY_ERROR_TYPE_JOINT_NO_MOTION: 4,
+  TRAJECTORY_ERROR_TYPE_ZERO_DISTANCE: 4,
+  TRAJECTORY_ERROR_TYPE_INVALID_JOINT_SPEED: 5,
+  TRAJECTORY_ERROR_TYPE_INVALID_SPEED: 5,
+  TRAJECTORY_ERROR_TYPE_LARGE_SPEED: 6,
+  TRAJECTORY_ERROR_TYPE_INVALID_JOINT_ACCELERATION: 7,
+  TRAJECTORY_ERROR_TYPE_INVALID_ACCELERATION: 7,
+  TRAJECTORY_ERROR_TYPE_INVALID_TIME_STEP: 8,
+  TRAJECTORY_ERROR_TYPE_INVALID_TRAJECTORY_SIZE: 9,
+  TRAJECTORY_ERROR_TYPE_LARGE_SIZE: 9,
+  TRAJECTORY_ERROR_TYPE_WRONG_MODE: 10,
+  TRAJECTORY_ERROR_TYPE_INVALID_JOINT_POSITION: 11,
+  TRAJECTORY_ERROR_TYPE_JOINT_POSITION_LIMIT: 11,
+  TRAJECTORY_ERROR_TYPE_FILE_ERROR: 12,
+  TRAJECTORY_ERROR_TYPE_NO_FILE_IN_MEMORY: 13,
+  TRAJECTORY_ERROR_TYPE_INDEX_OUT_OF_TRAJ: 14,
+  TRAJECTORY_ERROR_TYPE_TRAJECTORY_ALREADY_RUNNING: 15,
+  TRAJECTORY_ERROR_TYPE_ALREADY_RUNNING: 15,
+  TRAJECTORY_ERROR_TYPE_WRONG_STARTING_POINT: 16,
+  TRAJECTORY_ERROR_TYPE_CARTESIAN_CANNOT_START: 17,
+  TRAJECTORY_ERROR_TYPE_WRONG_STARTING_SPEED: 18,
+  TRAJECTORY_ERROR_TYPE_INVALID_POSITION: 19,
+  TRAJECTORY_ERROR_TYPE_INVALID_CARTESIAN_POSITION: 20,
+  TRAJECTORY_ERROR_TYPE_INVALID_CARTESIAN_ORIENTATION: 21,
+  TRAJECTORY_ERROR_TYPE_INVALID_CARTESIAN_LINEAR_VELOCITY: 22,
+  TRAJECTORY_ERROR_TYPE_INVALID_CARTESIAN_ANGULAR_VELOCITY: 23,
+  TRAJECTORY_ERROR_TYPE_INVALID_JOINT_TORQUE: 24,
+  TRAJECTORY_ERROR_TYPE_MULTIPLE_WAYPOINT_TYPE_LIST: 25,
+  TRAJECTORY_ERROR_TYPE_INITIAL_WAYPOINT_NO_STOP: 26,
+  TRAJECTORY_ERROR_TYPE_FINAL_WAYPOINT_NO_STOP: 27,
+  TRAJECTORY_ERROR_TYPE_INVALID_BLENDING_RADIUS: 28,
+  TRAJECTORY_ERROR_TYPE_INVALID_REFERENCE_FRAME: 29,
+  TRAJECTORY_ERROR_TYPE_NUMERICAL_ERROR_IMPOSSIBLE_TRAJECTORY: 30,
+}
+
+module.exports = TrajectoryErrorType;

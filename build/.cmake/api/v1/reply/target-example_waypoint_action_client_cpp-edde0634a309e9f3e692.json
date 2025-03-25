@@ -1,0 +1,532 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/home/slam327/catkin_workspace/devel/lib/kortex_examples/example_waypoint_action_client_cpp"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"_install",
+			"install",
+			"add_dependencies",
+			"add_compile_options",
+			"add_definitions",
+			"include",
+			"find_package",
+			"configure_shared_library_build_settings",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"ros_kortex/kortex_examples/CMakeLists.txt",
+			"/opt/ros/noetic/share/catkin/cmake/custom_install.cmake",
+			"/opt/ros/noetic/share/rosconsole/cmake/rosconsole-extras.cmake",
+			"/opt/ros/noetic/share/rosconsole/cmake/rosconsoleConfig.cmake",
+			"/opt/ros/noetic/share/roscpp/cmake/roscppConfig.cmake",
+			"/opt/ros/noetic/share/catkin/cmake/catkinConfig.cmake",
+			"/opt/ros/noetic/share/catkin/cmake/tools/libraries.cmake",
+			"/opt/ros/noetic/share/catkin/cmake/all.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 60,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 13,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 38,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"file" : 5,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 76,
+				"parent" : 7
+			},
+			{
+				"file" : 4,
+				"parent" : 8
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 197,
+				"parent" : 9
+			},
+			{
+				"file" : 3,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 222,
+				"parent" : 11
+			},
+			{
+				"file" : 2,
+				"parent" : 12
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 12,
+				"parent" : 13
+			},
+			{
+				"file" : 8
+			},
+			{
+				"command" : 7,
+				"file" : 8,
+				"line" : 58,
+				"parent" : 15
+			},
+			{
+				"file" : 5,
+				"parent" : 16
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 20,
+				"parent" : 17
+			},
+			{
+				"file" : 7,
+				"parent" : 18
+			},
+			{
+				"command" : 8,
+				"file" : 7,
+				"line" : 174,
+				"parent" : 19
+			},
+			{
+				"command" : 5,
+				"file" : 6,
+				"line" : 18,
+				"parent" : 20
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 8,
+				"parent" : 13
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " "
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-std=c++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 14,
+					"define" : "ROSCONSOLE_BACKEND_LOG4CXX"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "ROS_BUILD_SHARED_LIBS=1"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "ROS_PACKAGE_NAME=\"kortex_examples\""
+				},
+				{
+					"backtrace" : 23,
+					"define" : "_OS_UNIX"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 24,
+					"path" : "/home/slam327/catkin_workspace/src/ros_kortex/kortex_examples/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/slam327/catkin_workspace/devel/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/opt/ros/noetic/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "/home/slam327/catkin_workspace/src/ros_kortex/kortex_examples/src"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/slam327/catkin_workspace/src/ros_kortex/kortex_examples/../kortex_api/include/client"
+				},
+				{
+					"backtrace" : 27,
+					"path" : "/home/slam327/catkin_workspace/src/ros_kortex/kortex_examples/../kortex_api/include/client_stubs"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/slam327/catkin_workspace/src/ros_kortex/kortex_examples/../kortex_api/include/messages"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/home/slam327/catkin_workspace/src/ros_kortex/kortex_examples/../kortex_api/include/common"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "roscpp_generate_messages_cpp::@498ff334da3e10d04431"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "roscpp_generate_messages_eus::@498ff334da3e10d04431"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "rosgraph_msgs_generate_messages_nodejs::@498ff334da3e10d04431"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "actionlib_generate_messages_cpp::@498ff334da3e10d04431"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "actionlib_msgs_generate_messages_py::@498ff334da3e10d04431"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "roscpp_generate_messages_nodejs::@498ff334da3e10d04431"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "roscpp_generate_messages_py::@498ff334da3e10d04431"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "rosgraph_msgs_generate_messages_eus::@498ff334da3e10d04431"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "rosgraph_msgs_generate_messages_lisp::@498ff334da3e10d04431"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "actionlib_msgs_generate_messages_eus::@498ff334da3e10d04431"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "roscpp_generate_messages_lisp::@498ff334da3e10d04431"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "actionlib_generate_messages_lisp::@498ff334da3e10d04431"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "rosgraph_msgs_generate_messages_py::@498ff334da3e10d04431"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "rosgraph_msgs_generate_messages_cpp::@498ff334da3e10d04431"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "actionlib_generate_messages_eus::@498ff334da3e10d04431"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "actionlib_msgs_generate_messages_cpp::@498ff334da3e10d04431"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "actionlib_generate_messages_nodejs::@498ff334da3e10d04431"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "actionlib_generate_messages_py::@498ff334da3e10d04431"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "std_msgs_generate_messages_eus::@498ff334da3e10d04431"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "actionlib_msgs_generate_messages_nodejs::@498ff334da3e10d04431"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "actionlib_msgs_generate_messages_lisp::@498ff334da3e10d04431"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "kortex_driver_generate_messages_py::@e3be5605a86b8daf93cf"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "kortex_driver_generate_messages_lisp::@e3be5605a86b8daf93cf"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "kortex_driver_generate_messages_eus::@e3be5605a86b8daf93cf"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "kortex_driver_generate_messages_cpp::@e3be5605a86b8daf93cf"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "kortex_driver_generate_messages_nodejs::@e3be5605a86b8daf93cf"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "std_msgs_generate_messages_nodejs::@498ff334da3e10d04431"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "std_msgs_generate_messages_py::@498ff334da3e10d04431"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "std_msgs_generate_messages_lisp::@498ff334da3e10d04431"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "std_msgs_generate_messages_cpp::@498ff334da3e10d04431"
+		}
+	],
+	"id" : "example_waypoint_action_client_cpp::@ed282243c81231c1bab1",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 3,
+				"path" : "lib/kortex_examples"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/slam327/catkin_workspace/install"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-rdynamic",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/opt/ros/noetic/lib:",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/noetic/lib/libactionlib.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/noetic/lib/libroscpp.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/noetic/lib/librosconsole.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/noetic/lib/librosconsole_log4cxx.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/noetic/lib/librosconsole_backend_interface.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-llog4cxx",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/noetic/lib/libxmlrpcpp.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/noetic/lib/libroscpp_serialization.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/noetic/lib/librostime.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/noetic/lib/libcpp_common.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "example_waypoint_action_client_cpp",
+	"nameOnDisk" : "example_waypoint_action_client_cpp",
+	"paths" : 
+	{
+		"build" : "ros_kortex/kortex_examples",
+		"source" : "ros_kortex/kortex_examples"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ros_kortex/kortex_examples/src/full_arm/example_waypoint_action_client.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
