@@ -187,7 +187,7 @@ kortex_arm_driver_func_tests_EXTERNAL_OBJECTS =
 /home/slam327/catkin_workspace/devel/lib/kortex_driver/kortex_arm_driver_func_tests: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
 /home/slam327/catkin_workspace/devel/lib/kortex_driver/kortex_arm_driver_func_tests: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 /home/slam327/catkin_workspace/devel/lib/kortex_driver/kortex_arm_driver_func_tests: /usr/lib/liborocos-kdl.so
-/home/slam327/catkin_workspace/devel/lib/kortex_driver/kortex_arm_driver_func_tests: /usr/lib/liborocos-kdl.so
+/home/slam327/catkin_workspace/devel/lib/kortex_driver/kortex_arm_driver_func_tests: /usr/local/lib/liborocos-kdl.so
 /home/slam327/catkin_workspace/devel/lib/kortex_driver/kortex_arm_driver_func_tests: /opt/ros/noetic/lib/libtf2_ros.so
 /home/slam327/catkin_workspace/devel/lib/kortex_driver/kortex_arm_driver_func_tests: /opt/ros/noetic/lib/libactionlib.so
 /home/slam327/catkin_workspace/devel/lib/kortex_driver/kortex_arm_driver_func_tests: /opt/ros/noetic/lib/libmessage_filters.so
@@ -288,6 +288,7 @@ kortex_arm_driver_func_tests_EXTERNAL_OBJECTS =
 /home/slam327/catkin_workspace/devel/lib/kortex_driver/kortex_arm_driver_func_tests: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
 /home/slam327/catkin_workspace/devel/lib/kortex_driver/kortex_arm_driver_func_tests: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 /home/slam327/catkin_workspace/devel/lib/kortex_driver/kortex_arm_driver_func_tests: /usr/lib/liborocos-kdl.so
+/home/slam327/catkin_workspace/devel/lib/kortex_driver/kortex_arm_driver_func_tests: /usr/local/lib/liborocos-kdl.so
 /home/slam327/catkin_workspace/devel/lib/kortex_driver/kortex_arm_driver_func_tests: /opt/ros/noetic/lib/libtf2_ros.so
 /home/slam327/catkin_workspace/devel/lib/kortex_driver/kortex_arm_driver_func_tests: /opt/ros/noetic/lib/libactionlib.so
 /home/slam327/catkin_workspace/devel/lib/kortex_driver/kortex_arm_driver_func_tests: /opt/ros/noetic/lib/libmessage_filters.so

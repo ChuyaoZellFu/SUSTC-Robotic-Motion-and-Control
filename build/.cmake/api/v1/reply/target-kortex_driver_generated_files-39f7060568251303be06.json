@@ -382,7 +382,7 @@
 				"role" : "flags"
 			},
 			{
-				"fragment" : "-Wl,-rpath,/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu",
+				"fragment" : "-Wl,-rpath,/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu:/usr/local/lib",
 				"role" : "libraries"
 			},
 			{
@@ -694,7 +694,7 @@
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "-lorocos-kdl",
+				"fragment" : "/usr/local/lib/liborocos-kdl.so",
 				"role" : "libraries"
 			},
 			{

@@ -10060,7 +10060,7 @@
 			"path" : "/opt/ros/noetic/share/catkin/cmake/templates/script.py.in"
 		},
 		{
-			"path" : "ros_kortex/pick_and_place/CMakeLists.txt"
+			"path" : "pick_and_place/CMakeLists.txt"
 		},
 		{
 			"isExternal" : true,
@@ -10314,18 +10314,18 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "/home/slam327/catkin_workspace/build/ros_kortex/pick_and_place/catkin_generated/ordered_paths.cmake"
+			"path" : "/home/slam327/catkin_workspace/build/pick_and_place/catkin_generated/ordered_paths.cmake"
 		},
 		{
 			"isGenerated" : true,
-			"path" : "/home/slam327/catkin_workspace/build/ros_kortex/pick_and_place/catkin_generated/ordered_paths.cmake"
+			"path" : "/home/slam327/catkin_workspace/build/pick_and_place/catkin_generated/ordered_paths.cmake"
 		},
 		{
-			"path" : "ros_kortex/pick_and_place/package.xml"
+			"path" : "pick_and_place/package.xml"
 		},
 		{
 			"isGenerated" : true,
-			"path" : "/home/slam327/catkin_workspace/build/ros_kortex/pick_and_place/catkin_generated/package.cmake"
+			"path" : "/home/slam327/catkin_workspace/build/pick_and_place/catkin_generated/package.cmake"
 		},
 		{
 			"isExternal" : true,

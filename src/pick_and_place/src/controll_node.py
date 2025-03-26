@@ -252,7 +252,7 @@ class PickAndPlaceController:
             # Send gripper command
             # Let's close the gripper at 50%
             if self.is_gripper_present:
-                success &= self.example_send_gripper_command(0.5)
+                success &= self.example_send_gripper_command(0.8)
             else:
                 rospy.logwarn("No gripper is present on the arm.") 
             #*******************************************************************************
@@ -267,12 +267,12 @@ class PickAndPlaceController:
             req.input.handle.identifier = 1002
             req.input.name = "pose2"
 
-            my_constrained_pose.target_pose.x = 0.4
-            my_constrained_pose.target_pose.y = 0.367
-            my_constrained_pose.target_pose.z = -0.018
-            my_constrained_pose.target_pose.theta_x = 176.177
-            my_constrained_pose.target_pose.theta_y = -1.445
-            my_constrained_pose.target_pose.theta_z = 127.106
+            my_constrained_pose.target_pose.x = 0.297
+            my_constrained_pose.target_pose.y = 0.222
+            my_constrained_pose.target_pose.z = 0.04
+            my_constrained_pose.target_pose.theta_x = 21.133
+            my_constrained_pose.target_pose.theta_y = 169.52
+            my_constrained_pose.target_pose.theta_z = 31.41
 
             req.input.oneof_action_parameters.reach_pose[0] = my_constrained_pose
 

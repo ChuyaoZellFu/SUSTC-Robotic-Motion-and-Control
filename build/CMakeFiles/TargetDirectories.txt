@@ -989,10 +989,10 @@
 /home/slam327/catkin_workspace/build/ros_kortex/kortex_examples/CMakeFiles/run_tests_kortex_examples_gtest.dir
 /home/slam327/catkin_workspace/build/ros_kortex/kortex_examples/CMakeFiles/example_cartesian_poses_with_notifications_cpp.dir
 /home/slam327/catkin_workspace/build/ros_kortex/kortex_examples/CMakeFiles/_run_tests_kortex_examples_gtest.dir
-/home/slam327/catkin_workspace/build/ros_kortex/pick_and_place/CMakeFiles/install/strip.dir
-/home/slam327/catkin_workspace/build/ros_kortex/pick_and_place/CMakeFiles/install/local.dir
-/home/slam327/catkin_workspace/build/ros_kortex/pick_and_place/CMakeFiles/install.dir
-/home/slam327/catkin_workspace/build/ros_kortex/pick_and_place/CMakeFiles/list_install_components.dir
-/home/slam327/catkin_workspace/build/ros_kortex/pick_and_place/CMakeFiles/rebuild_cache.dir
-/home/slam327/catkin_workspace/build/ros_kortex/pick_and_place/CMakeFiles/edit_cache.dir
-/home/slam327/catkin_workspace/build/ros_kortex/pick_and_place/CMakeFiles/test.dir
+/home/slam327/catkin_workspace/build/pick_and_place/CMakeFiles/install/strip.dir
+/home/slam327/catkin_workspace/build/pick_and_place/CMakeFiles/install/local.dir
+/home/slam327/catkin_workspace/build/pick_and_place/CMakeFiles/install.dir
+/home/slam327/catkin_workspace/build/pick_and_place/CMakeFiles/list_install_components.dir
+/home/slam327/catkin_workspace/build/pick_and_place/CMakeFiles/rebuild_cache.dir
+/home/slam327/catkin_workspace/build/pick_and_place/CMakeFiles/edit_cache.dir
+/home/slam327/catkin_workspace/build/pick_and_place/CMakeFiles/test.dir

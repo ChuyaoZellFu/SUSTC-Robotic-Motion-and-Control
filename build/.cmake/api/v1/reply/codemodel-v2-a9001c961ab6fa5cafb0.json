@@ -1123,7 +1123,7 @@
 					]
 				},
 				{
-					"build" : "ros_kortex/pick_and_place",
+					"build" : "pick_and_place",
 					"hasInstallRule" : true,
 					"minimumCMakeVersion" : 
 					{
@@ -1131,7 +1131,7 @@
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 19,
-					"source" : "ros_kortex/pick_and_place"
+					"source" : "pick_and_place"
 				}
 			],
 			"name" : "",
@@ -7570,21 +7570,21 @@
 				{
 					"directoryIndex" : 13,
 					"id" : "kortex_arm_driver::@e3be5605a86b8daf93cf",
-					"jsonFile" : "target-kortex_arm_driver-74bd108294b51bf45bed.json",
+					"jsonFile" : "target-kortex_arm_driver-634b059872d76c688a29.json",
 					"name" : "kortex_arm_driver",
 					"projectIndex" : 13
 				},
 				{
 					"directoryIndex" : 13,
 					"id" : "kortex_arm_driver_func_tests::@e3be5605a86b8daf93cf",
-					"jsonFile" : "target-kortex_arm_driver_func_tests-ca7ca19cecf27d2cbe3e.json",
+					"jsonFile" : "target-kortex_arm_driver_func_tests-338bd49e57f5e8c0c5f6.json",
 					"name" : "kortex_arm_driver_func_tests",
 					"projectIndex" : 13
 				},
 				{
 					"directoryIndex" : 13,
 					"id" : "kortex_arm_driver_implementation::@e3be5605a86b8daf93cf",
-					"jsonFile" : "target-kortex_arm_driver_implementation-7ddfed56eafa60a7bb80.json",
+					"jsonFile" : "target-kortex_arm_driver_implementation-de31466567f801fc5c0a.json",
 					"name" : "kortex_arm_driver_implementation",
 					"projectIndex" : 13
 				},
@@ -7640,7 +7640,7 @@
 				{
 					"directoryIndex" : 13,
 					"id" : "kortex_driver_generated_files::@e3be5605a86b8daf93cf",
-					"jsonFile" : "target-kortex_driver_generated_files-f5b559b8c63c50c0e9c2.json",
+					"jsonFile" : "target-kortex_driver_generated_files-39f7060568251303be06.json",
 					"name" : "kortex_driver_generated_files",
 					"projectIndex" : 13
 				},

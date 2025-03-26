@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "/home/slam327/catkin_workspace/devel/lib/libkortex_arm_driver_implementation.so"
+			"path" : "/home/slam327/catkin_workspace/devel/lib/kortex_driver/kortex_arm_driver"
 		}
 	],
 	"backtrace" : 1,
@@ -10,7 +10,7 @@
 	{
 		"commands" : 
 		[
-			"add_library",
+			"add_executable",
 			"target_link_libraries",
 			"add_dependencies",
 			"add_compile_options",
@@ -45,19 +45,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 141,
+				"line" : 150,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 143,
+				"line" : 152,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 147,
+				"line" : 156,
 				"parent" : 0
 			},
 			{
@@ -213,7 +213,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "  -fPIC  "
+					"fragment" : "   "
 				},
 				{
 					"backtrace" : 4,
@@ -237,9 +237,6 @@
 				{
 					"backtrace" : 22,
 					"define" : "_OS_UNIX"
-				},
-				{
-					"define" : "kortex_arm_driver_implementation_EXPORTS"
 				}
 			],
 			"includes" : 
@@ -311,13 +308,7 @@
 			"language" : "CXX",
 			"sourceIndexes" : 
 			[
-				0,
-				1,
-				2,
-				3,
-				4,
-				5,
-				6
+				0
 			]
 		}
 	],
@@ -325,20 +316,24 @@
 	[
 		{
 			"backtrace" : 3,
+			"id" : "kortex_arm_driver_implementation::@e3be5605a86b8daf93cf"
+		},
+		{
+			"backtrace" : 2,
 			"id" : "kortex_driver_generated_files::@e3be5605a86b8daf93cf"
 		}
 	],
-	"id" : "kortex_arm_driver_implementation::@e3be5605a86b8daf93cf",
+	"id" : "kortex_arm_driver::@e3be5605a86b8daf93cf",
 	"link" : 
 	{
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "",
+				"fragment" : "-rdynamic",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "-Wl,-rpath,/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu:/home/slam327/catkin_workspace/devel/lib",
+				"fragment" : "-Wl,-rpath,/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu:/usr/local/lib:/home/slam327/catkin_workspace/devel/lib",
 				"role" : "libraries"
 			},
 			{
@@ -650,7 +645,7 @@
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "-lorocos-kdl",
+				"fragment" : "/usr/local/lib/liborocos-kdl.so",
 				"role" : "libraries"
 			},
 			{
@@ -743,6 +738,10 @@
 			},
 			{
 				"backtrace" : 2,
+				"fragment" : "/home/slam327/catkin_workspace/devel/lib/libkortex_arm_driver_implementation.so",
+				"role" : "libraries"
+			},
+			{
 				"fragment" : "/home/slam327/catkin_workspace/devel/lib/libkortex_driver_generated_files.so",
 				"role" : "libraries"
 			},
@@ -1059,6 +1058,10 @@
 				"role" : "libraries"
 			},
 			{
+				"fragment" : "/usr/local/lib/liborocos-kdl.so",
+				"role" : "libraries"
+			},
+			{
 				"fragment" : "/opt/ros/noetic/lib/libtf2_ros.so",
 				"role" : "libraries"
 			},
@@ -1149,8 +1152,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "kortex_arm_driver_implementation",
-	"nameOnDisk" : "libkortex_arm_driver_implementation.so",
+	"name" : "kortex_arm_driver",
+	"nameOnDisk" : "kortex_arm_driver",
 	"paths" : 
 	{
 		"build" : "ros_kortex/kortex_driver",
@@ -1162,13 +1165,7 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0,
-				1,
-				2,
-				3,
-				4,
-				5,
-				6
+				0
 			]
 		}
 	],
@@ -1177,45 +1174,9 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "ros_kortex/kortex_driver/src/non-generated/driver/cartesian_trajectory_action_server.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "ros_kortex/kortex_driver/src/non-generated/driver/joint_trajectory_action_server.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "ros_kortex/kortex_driver/src/non-generated/driver/kortex_arm_driver.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "ros_kortex/kortex_driver/src/non-generated/driver/kortex_arm_simulation.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "ros_kortex/kortex_driver/src/non-generated/driver/kortex_math_util.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "ros_kortex/kortex_driver/src/non-generated/driver/kortex_subscribers.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "ros_kortex/kortex_driver/src/non-generated/driver/robotiq_gripper_command_action_server.cpp",
+			"path" : "ros_kortex/kortex_driver/src/non-generated/main.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
-	"type" : "SHARED_LIBRARY"
+	"type" : "EXECUTABLE"
 }

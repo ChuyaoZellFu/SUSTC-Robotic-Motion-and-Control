@@ -146,7 +146,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/slam327/catkin_workspace/build/ros_kortex/kortex_move_it_config/gen3_robotiq_2f_140_move_it_config/cmake_install.cmake")
   include("/home/slam327/catkin_workspace/build/ros_kortex/kortex_move_it_config/gen3_robotiq_2f_85_move_it_config/cmake_install.cmake")
   include("/home/slam327/catkin_workspace/build/ros_kortex/kortex_examples/cmake_install.cmake")
-  include("/home/slam327/catkin_workspace/build/ros_kortex/pick_and_place/cmake_install.cmake")
+  include("/home/slam327/catkin_workspace/build/pick_and_place/cmake_install.cmake")
 
 endif()
 
